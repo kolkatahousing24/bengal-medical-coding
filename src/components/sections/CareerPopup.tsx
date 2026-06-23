@@ -9,7 +9,7 @@ interface CareerPopupProps {
   onYesClick: () => void
 }
 
-const ISO_CERT_URL = 'https://kxksiowdkdnlvvybcpqp.supabase.co/storage/v1/object/public/gallery/iso-certificate.png'
+const ISO_CERT_URL = 'https://kxksiowdkdnlvvybcpqp.supabase.co/storage/v1/object/public/gallery/iso-certificate.jpg'
 
 export default function CareerPopup({ onYesClick }: CareerPopupProps) {
   const [isOpen, setIsOpen] = useState(false)
