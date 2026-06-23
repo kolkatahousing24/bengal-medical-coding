@@ -120,12 +120,11 @@ export default function CareerPopup({ onYesClick }: CareerPopupProps) {
                 </div>
 
                 {/* ISO Certificate image */}
-                <div className="relative rounded-lg overflow-hidden border border-border bg-muted/30">
+                <div className="relative rounded-lg overflow-hidden border border-border bg-muted/30 flex items-center justify-center">
                   <img
                     src={ISO_CERT_URL}
                     alt="ISO 9001:2015 Certificate"
-                    className="w-full h-auto object-contain max-h-[200px]"
-                    loading="lazy"
+                    className="w-full h-auto object-contain max-h-[250px]"
                   />
                 </div>
               </div>
