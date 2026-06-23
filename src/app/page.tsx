@@ -16,6 +16,7 @@ import Footer from '@/components/sections/Footer'
 import LoginDialog from '@/components/sections/LoginDialog'
 import PanelContainer from '@/components/panel/PanelContainer'
 import EnquiryPopup from '@/components/sections/EnquiryPopup'
+import CareerPopup from '@/components/sections/CareerPopup'
 import { useAuthStore } from '@/lib/store'
 
 export default function Home() {
@@ -54,6 +55,7 @@ export default function Home() {
       <Footer />
       <LoginDialog open={loginOpen} onOpenChange={setLoginOpen} />
       <EnquiryPopup open={popupOpen} onOpenChange={setPopupOpen} source={popupSource} />
+      <CareerPopup onYesClick={() => openPopup('enquiry')} />
     </div>
   )
 }
