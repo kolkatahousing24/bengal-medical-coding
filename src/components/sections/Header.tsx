@@ -32,7 +32,7 @@ interface HeaderProps {
 const navLinks = [
   { label: 'Home', href: '#home' },
   { label: 'About Us', href: '#about' },
-  { label: 'Faculty', href: '#faculty' },
+  { label: 'Team', href: '#faculty' },
   { label: 'Courses', href: '#courses' },
   { label: 'Gallery', href: '#gallery' },
   { label: 'Placement', href: '#placement' },

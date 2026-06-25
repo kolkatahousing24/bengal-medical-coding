@@ -1,82 +1,16 @@
-# See https://help.github.com/articles/ignoring-files/ for more about ignoring files.
-
-# dependencies
-node_modules
-/.pnp
-.pnp.*
-.yarn/*
-!.yarn/patches
-!.yarn/plugins
-!.yarn/releases
-!.yarn/versions
-
-# testing
-/coverage
-
-# next.js
-/.next/
-/out/
-
-# production
-/build
-
-# misc
-.DS_Store
-*.pem
-
-# debug
-npm-debug.log*
-yarn-debug.log*
-yarn-error.log*
-.pnpm-debug.log*
-
-# env files (can opt-in for committing if needed)
-.env*
-!.env.example
-
-# vercel
-.vercel
-
-
-# typescript
-*.tsbuildinfo
-next-env.d.ts
-local-*
-.claude
-.z-ai-config
+skills/
+node_modules/
+.next/
+.env
+.env.local
+.env.production
 *.log
-dev.log
-dev.out.log
-test
-prompt
-
-server.log
-
-# mini services
-/mini-services/
-
-# uploads (user-generated content)
-/public/uploads/gallery/
-
-# Skills directory
-/skills/
-
-# Dev daemon
-daemon.js
-
-# Z.ai config
-.zscripts/
-agent-ctx/
-Caddyfile
-db/
-prisma/migrations/
-worklog.md
-
-# Screenshots & uploads
-screenshot*.png
-test-*.png
+.DS_Store
+dist/
+build/
+.vercel
 upload/
-download/
-supabase-schema*.sql
-*.sh
-examples/
+mini-services/
+db/
+server.log
+daemon.js

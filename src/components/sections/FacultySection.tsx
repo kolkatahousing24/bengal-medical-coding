@@ -79,7 +79,7 @@ export default function FacultySection() {
           className="text-center mb-12 sm:mb-16"
         >
           <h2 className="text-3xl sm:text-4xl lg:text-5xl font-bold font-heading text-white mb-3">
-            Our Expert <span className="text-accent-gold">Faculty</span>
+            Meet Our <span className="text-accent-gold">Team</span>
           </h2>
           <p className="text-white/70 text-base sm:text-lg max-w-2xl mx-auto">
             Industry-certified professionals leading your journey towards a rewarding healthcare career.
